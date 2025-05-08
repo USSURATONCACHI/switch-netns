@@ -1,0 +1,5 @@
+compile_commands.json
+build-dir
+.cache
+switch-netns/
+*.pkg.tar.zst
