@@ -1,6 +1,6 @@
 pkgbase = switch-netns
 	pkgdesc = CLI tool to change network namespaces without root access
-	pkgver = 1.0.1
+	pkgver = 1.0.2
 	pkgrel = 1
 	url = https://github.com/USSURATONCACHI/switch-netns.git
 	arch = any
@@ -8,7 +8,7 @@ pkgbase = switch-netns
 	makedepends = base-devel
 	makedepends = gengetopt
 	depends = libcap
-	source = git+https://github.com/USSURATONCACHI/switch-netns.git#tag=v1.0.1
-	sha256sums = 9a99d15ec923d3ec57ec4cf21afb4fe5bf78a2b4b23f91b6d2e786e9ba1d028d
+	source = git+https://github.com/USSURATONCACHI/switch-netns.git#tag=v1.0.2
+	sha256sums = 1ffdd9eabb26143369a2df4bcd7f4271df467ddd707dfaf674e5b3b213bcefdf
 
 pkgname = switch-netns

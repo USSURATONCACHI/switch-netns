@@ -1,7 +1,7 @@
 # Maintainer: ussur, Redchin Daniil <redchindaniil@gmail.com>
 
 pkgname=switch-netns
-pkgver=1.0.1
+pkgver=1.0.2
 pkgrel=1
 pkgdesc="CLI tool to change network namespaces without root access"
 arch=('any')
@@ -10,7 +10,7 @@ license=('MIT')
 depends=('libcap')
 makedepends=('base-devel' 'gengetopt')
 source=("git+${url}#tag=v${pkgver}")
-sha256sums=('1ffdd9eabb26143369a2df4bcd7f4271df467ddd707dfaf674e5b3b213bcefdf')
+sha256sums=('8af27fb42f4df02e848788e35c48649a64ce6f0aa0c7581be3d533fe063be9af')
 
 build() {
     cd "$srcdir/switch-netns"
