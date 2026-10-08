@@ -1,7 +1,6 @@
 compile_commands.json
-build-dir
 .cache
+switch-netns2
 pkg/
-src/switch-netns/
+src/
 *.pkg.tar.zst
-switch-netns/

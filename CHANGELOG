@@ -1,3 +1,12 @@
+Version 2.0.0
+
+- Renamed to `switch-netns2`.
+- New usage: `switch-netns2 <name> -- <command> [args...]`. Only named namespaces (`/run/netns/<name>`) are supported.
+- Mounts files from `/etc/netns/<name>/` over `/etc/` in a private mount namespace, like `ip netns exec`.
+- Drops all capabilities before running the command.
+- Only needs `cap_sys_admin` now. Removed the `gengetopt` dependency.
+- Flat layout, no Makefile: built by `PKGBUILD` with a single `cc` call.
+
 Version 1.0.3
 
 - Significantly simplified and enhanced the program by removing all unnecessary code.

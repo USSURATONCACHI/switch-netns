@@ -1,7 +1,7 @@
 #ifndef BETTER_C_STD_PRETTIFY_ASSERT_H_
 #define BETTER_C_STD_PRETTIFY_ASSERT_H_
 
-#include <prettify/panic.h>
+#include "panic.h"
 
 #define assert_alloc(ptr) \
     if (ptr == NULL) panic("Failed to allocate memory");
